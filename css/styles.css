@@ -1,0 +1,38 @@
+body {
+  font-size: 18px;
+}
+#header-nav {
+  background-color: #f7b645;
+
+}
+.navbar-brand {
+  color: red;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 40px;
+  padding-bottom: 60px;
+}
+
+div h2 {
+  color: #916518;
+}
+
+.page-text p {
+  background-color: #b7b2aa;
+  height: 1000px;
+  padding: 40px 20px;
+  width: 100%;
+}
+ul {
+  text-align: center;
+}
+@media (max-width: 767px) {
+
+  .navbar-brand {
+    font-size: 1.8em;
+    padding-top: 40px;
+  }
+  #menu-button {
+    margin-top:15px;
+  }
+}
